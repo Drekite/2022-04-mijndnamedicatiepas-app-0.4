@@ -1,0 +1,37 @@
+name: Node.js CI
+
+on:
+  push:
+  pull_request:
+    branches: [ main, Sprint-0, Sprint-1, Sprint-2, Sprint-3, Sprint-4, Sprint-5, Sprint-6 ]
+
+jobs:
+  Execute-tests:
+    name: Run tests using various node.js versions
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        cache-dependency-path: "./mijnDNAmedicatiepas/package-lock.json"
+    - name: Clean install NPM
+      run: |
+        cd mijnDNAmedicatiepas
+        npm ci
+    - name: Building directory with production build
+      run: |
+        cd mijnDNAmedicatiepas
+        npm run build --if-present
+    - name: Running tests...
+      run: |
+        cd mijnDNAmedicatiepas
+        npm test
