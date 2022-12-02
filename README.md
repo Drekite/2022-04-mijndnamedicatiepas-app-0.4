@@ -28,10 +28,10 @@ npm start
 ```
 
 Scan the generated QR-code with the Expo Go app.
-Make sure you are on the same wifi network.
+Make sure you are on the same Wi-Fi network.
 
 ## Testing
-Tests will be run automatically when pushing with Github actions.
+Tests will be run automatically when pushing with GitHub actions.
 
 To run tests locally, install the dependencies by following the installation instructions.
 And then run the tests by running the following command from the 'mijnDNAmedicatiepas' folder:

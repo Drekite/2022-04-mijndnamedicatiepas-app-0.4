@@ -3,33 +3,33 @@
  * Contributors: Rachel Dijkstra, Lex Janssens
  * Description: This is the sharescreen of the app
  */
-import React, { Component } from 'react'; // import react
-import { Text, View, Button } from 'react-native'; // import react-native
-import { GenerateQR } from '../components/Share';
-import Stylesheet from '../styles/StyleSheet'; //stylesheet
+import React from 'react' // import react
+import { Text, View, Button } from 'react-native' // import react-native
+import { GenerateQR } from '../components/Share'
+import Stylesheet from '../styles/StyleSheet' // stylesheet
 
 /**
  * Prints the share screen, showing a text with "U bent nu op het deelscherm",
  * and a button to navigate back to the medication advice screen, stylesheet used is "Container"
- * @class ShareScreen
- * @render renders screen
+ * @const ShareScreen screen component
+ * @param navigation makes navigation between screens possible
+ * @param route makes possible to retrieve params from route
  * @return {View} GUI of the import screen
  */
-class ShareScreen extends Component {
-  render() {
-    return (
-      <View style={Stylesheet.container}>
-        <Text>U bent nu op het deelscherm</Text>
-        {/* Create react component with QR code; TODO call this with a parameter */}
-        {GenerateQR("Hello world")}
-        <Button
-          // Button to navigate to the medication advice screen
-          title="Terug naar medicatie-advies"
-          onPress={() => this.props.navigation.navigate('Medication')}
-        />
-      </View>
-    );
-  }
+const ShareScreen = ({ navigation, route }) => {
+  return (
+    <View style={Stylesheet.container}>
+      <Text>U bent nu op het deelscherm</Text>
+      {/* Create react component with QR code and given parameter */}
+      {GenerateQR(route.params.QrString)}
+      <Button
+        // Button to navigate to the medication advice screen
+        title="Terug naar medicatie-advies"
+        onPress={() => navigation.navigate('Medication')}
+      />
+    </View>
+  )
 }
 
-export default ShareScreen;
+// export ShareScreen function
+export default ShareScreen
