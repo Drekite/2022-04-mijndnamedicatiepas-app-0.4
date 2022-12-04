@@ -1,0 +1,32 @@
+[
+    {
+        "action": "<p>De genetische variatie verlaagt de omzetting van fenyto&#239;ne in inactieve metabolieten. Hierdoor is het risico op bijwerkingen verhoogd. Met name bij Aziaten kan de levensbedreigende cutane bijwerking stevens-johnsonsyndroom/toxische epidermale necrolyse optreden.</p> <p>Advies:</p> <ol type=\"1\"> <li>een oplaaddosering hoeft niet te worden aangepast<br /></li> <li>gebruik voor de overige doseringen 40% van de normale dosis en beoordeel de dosering op geleide van effect en serumspiegel na 7-10 dagen<br /></li> <li>adviseer de pati&#235;nt om contact op te nemen wanneer bijwerkingen (zoals ataxie, nystagmus, spraakstoornis, sedatie of, met name bij pati&#235;nten van Aziatische afkomst, huiduitslag) optreden</li> </ol>",
+        "pad": "Er is een Contraindicatie CYP2C9 *3/*3",
+        "protocol": "fenytoine"
+    },
+    {
+        "action": "<p>De genvariatie vermindert de omzetting van warfarine in inactieve metabolieten. Hierdoor is het bloedingsrisico verhoogd.</p> <p>Advies:</p> <ol type=\"1\"> <li>gebruik 20% van de normale startdosering</li> </ol> <p>De berekening van de genotypespecifieke start- en onderhoudsdosering kan worden uitgevoerd met behulp van een algoritme, zoals gebruikt in EU- PACT: zie https://www.knmp.nl/patientenzorg/medicatiebewaking/farmacogenetica voor rekenmodules in de vorm van Excelfiles voor de orale en de hieraan gelijk zijnde intraveneuze doseringen.<br /> Vanaf dag 6 kan het standaard genotype- onafhankelijke algoritme worden gebruikt.</p>",
+        "pad": "Er is een Contraindicatie CYP2C9 *3/*3",
+        "protocol": "warfarine"
+    },
+    {
+        "action": "<p>Siponimod is gecontra&#239;ndiceerd bij pati&#235;nten met deze genvariatie. In theorie is het risico op bijwerkingen sterk verhoogd doordat de genvariatie leidt tot veel hogere plasmaconcentraties van siponimod.</p> <ul> <li>vermijd siponimod</li> </ul>",
+        "pad": "Er is een Contraindicatie CYP2C9 *3/*3",
+        "protocol": "siponimod"
+    },
+    {
+        "action": "<p>De genetische variatie verlaagt de omzetting van fenyto&#239;ne in inactieve metabolieten. Hierdoor is het risico op bijwerkingen verhoogd.</p> <p>Advies:</p> <ol type=\"1\"> <li>een oplaaddosering hoeft niet te worden aangepast<br /></li> <li>gebruik voor de overige doseringen 75% van de normale dosis en beoordeel de dosering op geleide van effect en serumspiegel na 7-10 dagen<br /></li> <li>adviseer de pati&#235;nt om contact op te nemen wanneer bijwerkingen (zoals ataxie, nystagmus, spraakstoornis, sedatie of huiduitslag) optreden</li> </ol>",
+        "pad": "Er is een Contraindicatie CYP2C9 genotype anderszins - fenotype interm.metab",
+        "protocol": "fenytoine"
+    },
+    {
+        "action": "<p>De genvariatie vermindert de omzetting van warfarine in inactieve metabolieten. Hierdoor kan het bloedingsrisico verhoogd zijn.</p> <p>Advies:</p> <ol type=\"1\"> <li>gebruik 65% van de normale startdosering</li> </ol> <p>De berekening van de genotypespecifieke start- en onderhoudsdosering kan worden uitgevoerd met behulp van een algoritme.<br /> Algoritmes voor Kaukasische pati&#235;nten bevatten meestal alleen het *2- en *3-allel. Als de activiteit van het verminderd actieve allel vergelijkbaar is met dat van *2 of *3, kan het algoritme worden ingevuld alsof *1/*2 of *1/*3 aanwezig is. Zie https://www.knmp.nl/patientenzorg/medicatiebewaking/farmacogenetica voor rekenmodules in de vorm van Excelfiles voor de orale en de hieraan gelijk zijnde intraveneuze doseringen. Vanaf dag 6 kan het standaard genotype-onafhankelijke algoritme worden gebruikt.<br /> Voor pati&#235;nten met een Afrikaanse of (Oost-)Aziatische achtergrond zijn aparte doseringsalgoritmes ontwikkeld.</p>",
+        "pad": "Er is een Contraindicatie CYP2C9 genotype anderszins - fenotype interm.metab",
+        "protocol": "warfarine"
+    },
+    {
+        "action": "<p>In theorie is het risico op bijwerkingen verhoogd doordat de genvariatie leidt tot hogere plasmaconcentraties van siponimod.</p> <ul> <li>gebruik 50% van de normale onderhoudsdosis <ul> <li>heroverweeg de keuze en het mogelijke voordeel van siponimod als de pati&#235;nt ook een matige CYP3A4-inductor, zoals modafinil, gebruikt<br /> Een matige CYP3A4-inductor leidt bij de vergelijkbare genvariatie *1/*3 tot een afname in de blootstelling van siponimod met 49% volgens een farmacokinetisch model.</li> </ul></li> </ul>",
+        "pad": "Er is een Contraindicatie CYP2C9 genotype anderszins - fenotype interm.metab",
+        "protocol": "siponimod"
+    }
+]

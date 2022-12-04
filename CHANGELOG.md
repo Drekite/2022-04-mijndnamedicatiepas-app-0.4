@@ -3,6 +3,14 @@ In this file, all major changes are documented. Keywords such as 'added', 'chang
 
 ## [Released]
 
+## [0.5] - 2022-11-21
+### Added
+- Lint
+- Link to QR code generation
+
+### Changed
+- Parsing of VARDA files
+
 ## [0.4] - 2022-11-08
 ### Added
 - Parsing varda
@@ -11,7 +19,7 @@ In this file, all major changes are documented. Keywords such as 'added', 'chang
 
 ### Changed
 - Filesystem
-- Seperate stylesheet
+- Seperate style sheet
 - Screens are removed from stack
 
 ## [0.3] - 2022-10-24
@@ -22,7 +30,7 @@ In this file, all major changes are documented. Keywords such as 'added', 'chang
 ## [0.2] - 2022-10-10
 ### Added
 - Basic "Hello world" React application
-- Continuous integration unit testing in Github
+- Continuous integration unit testing in GitHub
 
 ## [Unreleased]
 

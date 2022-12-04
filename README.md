@@ -2,6 +2,10 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/ludev-nl/2022-04-mijndnamedicatiepas-app?branch=main&token=bddc5f99e9d3b4ebcc10befb0482e6d5d69df3af)](https://bettercodehub.com/)
 [![Node.js CI](https://github.com/ludev-nl/2022-04-mijndnamedicatiepas-app/actions/workflows/node.js.yml/badge.svg)](https://github.com/ludev-nl/2022-04-mijndnamedicatiepas-app/actions/workflows/node.js.yml)
 [![Node.js CI](https://github.com/ludev-nl/2022-04-mijndnamedicatiepas-app/actions/workflows/lint.yml/badge.svg)](https://github.com/ludev-nl/2022-04-mijndnamedicatiepas-app/actions/workflows/lint.yml)
+[![Coverage](./mijnDNAmedicatiepas/coverage/badge-lines.svg)]()
+[![Coverage](./mijnDNAmedicatiepas/coverage/badge-functions.svg)]()
+[![Coverage](./mijnDNAmedicatiepas/coverage/badge-branches.svg)]()
+[![Coverage](./mijnDNAmedicatiepas/coverage/badge-statements.svg)]()
 
 [MijnDnaMedicatiepas](https://mijndnamedicatiepas.nl) is currently the way for Pharamacogenetics (PGx) advice to be delivered to the patient. The profile, which is put on a QR code, is extracted from 200 phased variants in 12 actionable pharmacogenes.
 Since the genome can consist of approximately 5 million measurable personal genetic variants, a QR code is out of bounds of storing said information.
@@ -28,16 +32,22 @@ npm start
 ```
 
 Scan the generated QR-code with the Expo Go app.
-Make sure you are on the same wifi network.
+Make sure you are on the same Wi-Fi network.
 
 ## Testing
-Tests will be run automatically when pushing with Github actions.
+Tests will be run automatically when pushing with GitHub actions.
 
 To run tests locally, install the dependencies by following the installation instructions.
 And then run the tests by running the following command from the 'mijnDNAmedicatiepas' folder:
 
 ```bash
 npm test
+```
+
+Or for faster testing:
+
+```bash
+npm run test-fast
 ```
 
 ## Contributing

@@ -2,6 +2,8 @@
 This file contains the coding standards the team conforms to.
 This implies variable naming, brace placement, avoided language features, function and line sizes, code documentation and unit test coverage.
 
+We will be using the 'standard' coding standards provided by JavaScript. This will be corrected by Lint automatically at the end of each sprint. Nevertheless, some coding practices must be applied anyways.
+
 ## Language
 The language used in comments and variable naming is in English. Content of texts used in the application is in the language preferred by the client, in this case, Dutch.
 
@@ -14,7 +16,7 @@ Variables are defined with ```let``` and constants with ```const```.
 We will be using 2 spaces per standard indentation.
 
 ## Brace placement
-We will be placing braces on the same line, if possible.
+We will be placing braces on the same line.
 
 ### If statements
 For ```if``` statements where there are multiple lines are present, use
@@ -35,12 +37,9 @@ else {
 
 For ```if``` statements where a single line is present, use
 ```react
-if (statement)
-  line 1
-else if (statement)
-  line 2
-else
-  line 3
+if (statement) { line 1 }
+else if (statement) { line 2 }
+else { line 3 }
 ```
 
 ### Loops
@@ -68,7 +67,7 @@ Functions are not defined with the property of "default export". Instead, these 
  * @return {[type]}         [return description]
  */
 function [function name] (param1, param2) {
-    return param1 + param2;
+    return param1 + param2
 }
 
 ...
@@ -77,7 +76,7 @@ module.exports = {
   [function name]
 }
 
-export default [function name];
+export default [function name]
 ```
 
 Variable declarations with ```var``` will be avoided.
@@ -100,7 +99,7 @@ Each function is named in such way that it is clearly understood by the reader w
  * @return {[type]}         [return description]
  */
 function [function name] (param1, param2) {
-    return param1 + param2;
+    return param1 + param2
 }
 ```
 
@@ -125,7 +124,7 @@ Each file is marked at the top with a documentation about the overal information
   */
 ```
 
-### File names
+### Filenames
 Files are named with a capatalized first letter, and capatalized letters of each following word. Examples are: App.js, FileReader.js, etc. 
 
 ### Folder names

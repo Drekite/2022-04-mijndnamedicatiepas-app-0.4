@@ -1,0 +1,13 @@
+/mijnDNAmedicatiepas/babel.config.js
+/mijnDNAmedicatiepas/package-lock.json
+/mijnDNAmedicatiepas/package.json
+/mijnDNAmedicatiepas/app.json
+*.md
+.gitignore
+.eslintignore
+/mijnDNAmedicatiepas/.eslintrc.js
+/mijnDNAmedicatiepas/src/assets/*
+/mijnDNAmedicatiepas/src/tests/*
+/mijnDNAmedicatiepas/src/styles/*
+/mijnDNAmedicatiepas/src/screens/*
+*.yml
