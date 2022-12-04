@@ -1,10 +1,10 @@
 /**
  * StyleSheet.js
  * Contributors: Lex Janssens
- * Description: Contains the Stylesheet used throughout the app.
+ * Description: Contains the Stylesheet used throughout the app. 
  */
 
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create(
   {
@@ -12,7 +12,7 @@ export default StyleSheet.create(
       flex: 1,
       backgroundColor: '#fff',
       alignItems: 'center',
-      justifyContent: 'center'
-    }
+      justifyContent: 'center',
+    },
   }
-)
+);
